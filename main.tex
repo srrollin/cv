@@ -1,0 +1,179 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.1 (9/12/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[10pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{classic} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{green} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
+\usepackage[scale=0.75]{geometry} % Reduce document margins
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Fellipe} % Your first name
+\familyname{Rollin} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+\title{Software Engineer}
+\address{Stockholm - Sweden}{\href{https://www.linkedin.com/in/felliperollin}{linkedin.com/in/felliperollin}}
+\mobile{+46 (76) 3185722}
+\email{fellipetr@gmail.com}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\makecvtitle % Print the CV title
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Summary}
+
+I am a software engineer with over 11 years of professional experience. I have worked on desktop, mobile and embedded applications. I have strong knowledge about C, C++ and development of graphical user interfaces using Qt/QML. I have a solid background in creating complex mobile applications for Android. I have extensive experience in the full life cycle of software development right from requirements gathering, design, prototype, managing schedule, development, testing and maintenance.
+
+\section{Areas of Expertise}
+
+\cvitem{}{C++ programming skill and experience}
+\cvitem{}{Mobile applications development for Android and Tizen}
+\cvitem{}{Expert in working with various operating systems}
+\cvitem{}{Skilled in the development of cross-platform and embedded applications}
+\cvitem{}{Experience with Qt Framework and programming graphical user interfaces with QML}
+\cvitem{}{Familiar with Agile development techniques}
+
+\section{Technical skills}
+
+\cvitem{OS}{Linux/Unix, Windows}
+\cvitem{programming}{C, C++/Qt, Python, JavaScript, Java}
+\cvitem{databases}{SQLite, MySQL, Postgres}
+\cvitem{version control}{GIT, CVS, SVN}
+\cvitem{process}{SCRUM}
+
+\section{Education}
+
+\cventry{2005 -- 2008}{Bachelor of Information Systems}{UNISUL}{Santa Catarina}{Brazil}{}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Experience}
+
+\cventry{mar/2016 (current)}{Sr Software Developer}{\textsc{Symbio}}{Stockholm - Sweden}{}{
+\begin{itemize}
+\item Developing a security social network for Android.
+\item Created a prototype of smart security system using RaspberryPi and C++/Qt.
+\item Developed an audio streaming platform including back-end, Android and iOS apps.
+\end{itemize}}
+
+\cventry{nov/2014 -- mar/2016}{Software Developer}{\textsc{Nokia Institute of Technology - INdT}}{Manaus}{}{
+\begin{itemize}
+\item Developed a cross platform application(Qt/C++) interacting with data storage device.
+\end{itemize}}
+
+\cventry{aug/2013 -- nov/2014}{Software Developer/Team Leader/Project Coordinator}{\textsc{Samsung Eletronics - SIDIA}}{Manaus}{}{
+\begin{itemize}
+\item Porting Android application to Tizen platform.
+\item Developed Samsung's driving solution that allows users to interact with the mobile device(Android) using voice control features. Worked on this project as Technical Leader and Team Leader.
+\item Developed Android mobile application to manage sales and issue an electronic receipt used by Department of Finance of Brazil.
+\end{itemize}}
+
+\cventry{jun/2012 -- aug/2013}{Software Developer}{\textsc{Nokia Institute of Technology - INdT}}{Manaus}{}{
+\begin{itemize}
+\item Implemented a cross platform game with cocos2d-x(C++) running in Linux, Android and Windows Phone.
+\item Developed a mobile application in C\# to monitor bus location in the city of Manaus.
+\item Implemented HotSpot 2.0 support for Nokia mobile platforms.
+\item Developed the embedded software for a portable GPS device to monitor wildlife. The developed SW included advanced features for reduced battery consumption. This platform is now in trial by WWF to monitor animals in Nepal.
+\item Two proposals for projects to the internal innovation process promoted by INdT were approved to be initiated:
+\begin{itemize}
+\item Created a mobile solution to help the hearing impaired detect potential danger in the surrounding environment. This application analyses sounds from the surrounding environment and provides visual and tactile feedback to
+the user, with an intensity  proportional to the
+volume of the captured sounds and a guess of the audio source (e.g., an alarm, a horn) as well as the direction of the audio source.
+\item Researched, designed and implemented an open source public transport platform using Python, Nokia Here API and JavaScript with Jquery and Windows Phone Application written in the C\#. This platform will be used to provide traffic related information to Nokia Here.
+\end{itemize}
+\end{itemize}}
+
+\cventry{aug/2009 -- may/2012}{Embedded Software Developer}{\textsc{Datacom Telematica}}{Florianopolis}{}{
+\begin{itemize}
+\item Developed cross platform embedded Linux applications for telecommunication equipment written in C/C++.
+\item Implemented a front-end(JavaScript + jquery) and embedded server(C + Postgres) to configuring and managing telecommunications and network equipments from Datacom.
+\end{itemize}}
+
+\cventry{jan2008 -- aug/2009}{Embedded Software Developer}{\textsc{Digitro Tecnologia}}{Florianopolis}{}{
+\begin{itemize}
+\item Developed cross platform embedded Linux applications for telecommunications equipments written in the C/C++.
+\item Implemented a distributed backup system for audio records. This system is used by Brazilian Federal Police and Call Centers around the world.
+\item Developed a call recorder for Call Centers and Brazilian Federal Police.
+\item Developed a desktop screen recorder for Call Centers. This recorder is used by Call Centers in Brazil.
+\end{itemize}}
+
+\cventry{oct/2007 -- aug/2008}{Mobile Applications Software Developer}{\textsc{Fazion Sistemas}}{Florianopolis}{}{
+\begin{itemize}
+\item Implemented a trouble ticket system for mobile devices (J2ME). This system was created and used to Global Village Telecom(Brazilian telecomunications company) partner.
+\item Created Web Service to communicate with mobile devices in PHP with JavaScript.
+\end{itemize}}
+
+\cventry{dec/2006 -- oct/2007}{Mobile Applications Software Developer}{\textsc{WapCash Project - Unisul/Suntech/Techbay/Nexxera}}{Florianopolis}{}{
+\begin{itemize}
+\item Developed a mobile payment software in J2ME for cellphones. This system was used by
+the platform from the project sponsors.
+\end{itemize}}
+
+%----------------------------------------------------------------------------------------
+%	LANGUAGES SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Languages}
+
+\cvitemwithcomment{Portuguese}{Native}{}
+\cvitemwithcomment{English}{Advanced}{}
+\cvitemwithcomment{French}{Basic}{}
+\cvitemwithcomment{Spanish}{Basic}{}
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Publications}
+
+\cvitem{}{\textbf{ROLLIN, Fellipe}, Ueno, Alexandre, Bonfatti, Talitha Roberta, Velho, Luana In: Capacidade Empreendedora. Florianopolis : Pandion, 2011, v.1, p. 1-200.}
+
+\cvitem{}{\textbf{Fellipe Rollin}, ``Arduino: from prototype to final product,'' in
+Free and Open source Software Developers' European Meeting (FOSDEM), (Brussels), feb 2013.}
+
+\cvitem{}{\textbf{Fellipe Rollin}, ``Arduino: da prototipagem ao produto final,'' Conferencia Latino-Americana de Software Livre (Latinoware), (Foz do Iguacu), oct 2012.}
+
+\cvitem{}{\textbf{Fellipe Rollin}, ``Arduino: da prototipagem ao produto final,'' The Developer's Conference (TDC), (Goiania), Aug 2012.}
+
+\cvitem{}{\textbf{Fellipe Rollin}, ``Arduino: da prototipagem ao produto final,'' The Developer's Conference (TDC), (Florianopolis), oct 2012.}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
